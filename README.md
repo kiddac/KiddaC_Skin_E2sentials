@@ -1,2 +1,2 @@
 # KiddaC_Skin_E2sentials
-Skin additions including Top Picks and Movie Planner Mods
+Combined plugin for my original smaller skin additions plugins including Top Picks, Movie Planner Mods, Screen Names
