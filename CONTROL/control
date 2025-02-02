@@ -1,0 +1,9 @@
+Package: enigma2-plugin-extensions-kiddac-skin-e2sentials
+Version: 1.01-20250201
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: kiddac
+Description: Skin additions - Top Picks, Movie Planner Mods, Screen Names
+Source: https://www.linuxsat-support.com
+

@@ -1,0 +1,337 @@
+# Define skin configurations
+skin_configs = {
+    "slyk-q-1080": {
+        "background": True,  # show background hero graphic
+        "backgroundsize": [1280, 720],  # backdrop overlay size
+        "image_folder": "q-toppicks/",  # skin default image set. background.jpg, hero.jpg, toppicks1.jpg x by number of images
+        "image_prefix": "toppicks",  # name of image tiles in skin
+        "landscape_pics": [],  # which images are landscape i.e. [1, 2, 3]
+        "landscape_size": [],  # size of landscape pics i.e. [407, 241]
+        "channel_logo_height": 21,  # channel logo height
+        "channel_logo_halign": "center",  # channel logo horizontal position. left/center/right
+        "channel_logo_valign": "top",  # channel logo vertical position. top/bottom
+        "number_of_images": 10,  # total number of images portrait and landscape
+        "picons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],  # which images you want channel picons to appear on.
+        "portrait_pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],  # which images are portrait
+        "portrait_size": [240, 320],  # size of portrait cover pics
+        "skin_folder": "/usr/share/enigma2/slyk-q-1080/",
+        "skin_size": 1080,  # skin default height. i.e 1920 x 1080.
+        "programme_logo_width": 300,  # programme / movies / series logo - only for osn images
+        "programme_logo_x_offset": 540,  # offset from the left
+        "programme_logo_y_offset": 54  # offset from the top
+    },
+
+    "slyk-onyx-1080": {
+        "background": False,
+        "backgroundsize": [],
+        "image_folder": "whatson-gfx/",
+        "image_prefix": "whatson",
+        "landscape_pics": [8, 9, 10],
+        "landscape_size": [407, 241],
+        "channel_logo_height": 18,
+        "channel_logo_halign": "center",
+        "channel_logo_valign": "top",
+        "number_of_images": 10,
+        "picons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_size": [202, 270],
+        "skin_folder": "/usr/share/enigma2/slyk-onyx-1080/",
+        "skin_size": 1080,
+        "programme_logo_width": 300,
+        "programme_logo_x_offset": 540,
+        "programme_logo_y_offset": 54
+    },
+
+    "slyk-1080-r19": {
+        "background": True,
+        "backgroundsize": [1280, 720],
+        "image_folder": "toppicks/screens2/",
+        "image_prefix": "toppicks",
+        "landscape_pics": [],
+        "landscape_size": [],
+        "channel_logo_height": 21,
+        "channel_logo_halign": "center",
+        "channel_logo_valign": "top",
+        "number_of_images": 12,
+        "picons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+        "portrait_pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+        "portrait_size": [246, 328],
+        "skin_folder": "/usr/share/enigma2/slyk-1080-r19/",
+        "skin_size": 1080,
+        "programme_logo_width": 300,
+        "programme_logo_x_offset": 640,
+        "programme_logo_y_offset": 60
+    },
+
+    "vskin-1080": {
+        "background": False,
+        "backgroundsize": [],
+        "image_folder": "vskin-gfx/",
+        "image_prefix": "whatson",
+        "landscape_pics": [1, 2, 3, 4],
+        "landscape_size": [252, 189],
+        "channel_logo_height": 21,
+        "channel_logo_halign": "right",
+        "channel_logo_valign": "top",
+        "number_of_images": 4,
+        "picons": [1, 2, 3, 4],
+        "portrait_pics": [],
+        "portrait_size": [],
+        "skin_folder": "/usr/share/enigma2/",
+        "skin_size": 1080,
+        "programme_logo_width": 0,
+        "programme_logo_x_offset": 0,
+        "programme_logo_y_offset": 0
+    },
+
+    "slyk-q-720": {
+        "background": True,
+        "backgroundsize": [853, 480],
+        "image_folder": "q-toppicks/",
+        "image_prefix": "toppicks",
+        "landscape_pics": [],
+        "landscape_size": [],
+        "channel_logo_height": 14,
+        "channel_logo_halign": "center",
+        "channel_logo_valign": "top",
+        "number_of_images": 10,
+        "picons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_size": [160, 213],
+        "skin_folder": "/usr/share/enigma2/slyk-q-720/",
+        "skin_size": 720,
+        "programme_logo_width": 200,
+        "programme_logo_x_offset": 427,
+        "programme_logo_y_offset": 40
+    },
+
+    "slyk-onyx-720": {
+        "background": False,
+        "backgroundsize": [],
+        "image_folder": "whatson-gfx/",
+        "image_prefix": "whatson",
+        "landscape_pics": [8, 9, 10],
+        "landscape_size": [270, 161],
+        "channel_logo_height": 12,
+        "channel_logo_halign": "center",
+        "channel_logo_valign": "top",
+        "number_of_images": 10,
+        "picons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_size": [134, 180],
+        "skin_folder": "/usr/share/enigma2/slyk-onyx-720/",
+        "skin_size": 720,
+        "programme_logo_width": 200,
+        "programme_logo_x_offset": 427,
+        "programme_logo_y_offset": 40
+    },
+
+    "slyk-720-r19": {
+        "background": True,
+        "backgroundsize": [853, 480],
+        "image_folder": "toppicks/screens2/",
+        "image_prefix": "toppicks",
+        "landscape_pics": [],
+        "landscape_size": [],
+        "channel_logo_height": 14,
+        "channel_logo_halign": "center",
+        "channel_logo_valign": "top",
+        "number_of_images": 12,
+        "picons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+        "portrait_pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+        "portrait_size": [164, 219],
+        "skin_folder": "/usr/share/enigma2/slyk-720-r19/",
+        "skin_size": 720,
+        "programme_logo_width": 200,
+        "programme_logo_x_offset": 427,
+        "programme_logo_y_offset": 40
+    },
+
+    "vskin-720": {
+        "background": False,
+        "backgroundsize": [],
+        "image_folder": "vskin-gfx/",
+        "image_prefix": "whatson",
+        "landscape_pics": [1, 2, 3, 4],
+        "landscape_size": [168, 126],
+        "channel_logo_height": 14,
+        "channel_logo_halign": "right",
+        "channel_logo_valign": "top",
+        "number_of_images": 4,
+        "picons": [1, 2, 3, 4],
+        "portrait_pics": [],
+        "portrait_size": [],
+        "skin_folder": "/usr/share/enigma2/",
+        "skin_size": 720,
+        "programme_logo_width": 0,
+        "programme_logo_x_offset": 0,
+        "programme_logo_y_offset": 0
+    },
+    "Cosmos": {
+        "background": True,
+        "backgroundsize": [1280, 720],
+        "image_folder": "q-toppicks/",
+        "image_prefix": "toppicks",
+        "landscape_pics": [],
+        "landscape_size": [],
+        "channel_logo_height": 21,
+        "channel_logo_halign": "center",
+        "channel_logo_valign": "top",
+        "number_of_images": 10,
+        "picons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_size": [240, 320],
+        "skin_folder": "/usr/share/enigma2/Cosmos/",
+        "skin_size": 1080,
+        "programme_logo_width": 300,
+        "programme_logo_x_offset": 540,
+        "programme_logo_y_offset": 54
+    },
+
+    "Q-DarkBlue-FHD": {
+        "background": True,
+        "backgroundsize": [1280, 720],
+        "image_folder": "q-toppicks/",
+        "image_prefix": "toppicks",
+        "landscape_pics": [],
+        "landscape_size": [],
+        "channel_logo_height": 21,
+        "channel_logo_halign": "center",
+        "channel_logo_valign": "top",
+        "number_of_images": 10,
+        "picons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_size": [240, 320],
+        "skin_folder": "/usr/share/enigma2/Q-DarkBlue-FHD/",
+        "skin_size": 1080,
+        "programme_logo_width": 300,
+        "programme_logo_x_offset": 540,
+        "programme_logo_y_offset": 54
+    },
+
+    "Q-FHD": {
+        "background": True,
+        "backgroundsize": [1280, 720],
+        "image_folder": "q-toppicks/",
+        "image_prefix": "toppicks",
+        "landscape_pics": [],
+        "landscape_size": [],
+        "channel_logo_height": 21,
+        "channel_logo_halign": "center",
+        "channel_logo_valign": "top",
+        "number_of_images": 10,
+        "picons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_size": [240, 320],
+        "skin_folder": "/usr/share/enigma2/Q-FHD/",
+        "skin_size": 1080,
+        "programme_logo_width": 300,
+        "programme_logo_x_offset": 540,
+        "programme_logo_y_offset": 54
+    },
+
+    "Q-GradientPurple-FHD": {
+        "background": True,
+        "backgroundsize": [1280, 720],
+        "image_folder": "q-toppicks/",
+        "image_prefix": "toppicks",
+        "landscape_pics": [],
+        "landscape_size": [],
+        "channel_logo_height": 21,
+        "channel_logo_halign": "center",
+        "channel_logo_valign": "top",
+        "number_of_images": 10,
+        "picons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_size": [240, 320],
+        "skin_folder": "/usr/share/enigma2/Q-GradientPurple-FHD/",
+        "skin_size": 1080,
+        "programme_logo_width": 300,
+        "programme_logo_x_offset": 540,
+        "programme_logo_y_offset": 54
+    },
+
+    "Q-Purple-FHD": {
+        "background": True,
+        "backgroundsize": [1280, 720],
+        "image_folder": "q-toppicks/",
+        "image_prefix": "toppicks",
+        "landscape_pics": [],
+        "landscape_size": [],
+        "channel_logo_height": 21,
+        "channel_logo_halign": "center",
+        "channel_logo_valign": "top",
+        "number_of_images": 10,
+        "picons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_size": [240, 320],
+        "skin_folder": "/usr/share/enigma2/Q-Purple-FHD/",
+        "skin_size": 1080,
+        "programme_logo_width": 300,
+        "programme_logo_x_offset": 540,
+        "programme_logo_y_offset": 54
+    },
+
+    "slyk-q": {
+        "background": True,
+        "backgroundsize": [1280, 720],
+        "image_folder": "q-toppicks/",
+        "image_prefix": "toppicks",
+        "landscape_pics": [],
+        "landscape_size": [],
+        "channel_logo_height": 21,
+        "channel_logo_halign": "center",
+        "channel_logo_valign": "top",
+        "number_of_images": 10,
+        "picons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_size": [240, 320],
+        "skin_folder": "/usr/share/enigma2/slyk-q/",
+        "skin_size": 1080,
+        "programme_logo_width": 300,
+        "programme_logo_x_offset": 540,
+        "programme_logo_y_offset": 54
+    },
+
+    "slyk-q-de-1080": {
+        "background": True,
+        "backgroundsize": [1280, 720],
+        "image_folder": "q-toppicks/",
+        "image_prefix": "toppicks",
+        "landscape_pics": [],
+        "landscape_size": [],
+        "channel_logo_height": 21,
+        "channel_logo_halign": "center",
+        "channel_logo_valign": "top",
+        "number_of_images": 10,
+        "picons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_size": [240, 320],
+        "skin_folder": "/usr/share/enigma2/slyk-q-de-1080/",
+        "skin_size": 1080,
+        "programme_logo_width": 300,
+        "programme_logo_x_offset": 540,
+        "programme_logo_y_offset": 54
+    },
+
+    "AL_AYAM_FHD": {
+        "background": True,
+        "backgroundsize": [1280, 720],
+        "image_folder": "images/",
+        "image_prefix": "biko",
+        "landscape_pics": [],
+        "landscape_size": [],
+        "channel_logo_height": 21,
+        "channel_logo_halign": "center",
+        "channel_logo_valign": "top",
+        "number_of_images": 10,
+        "picons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "portrait_size": [240, 320],
+        "skin_folder": "/usr/share/enigma2/AL_AYAM_FHD/",
+        "skin_size": 1080,
+        "programme_logo_width": 300,
+        "programme_logo_x_offset": 1540,
+        "programme_logo_y_offset": 60
+    }
+}

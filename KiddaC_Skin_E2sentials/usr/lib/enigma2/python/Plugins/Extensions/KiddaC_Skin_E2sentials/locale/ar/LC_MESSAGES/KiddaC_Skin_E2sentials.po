@@ -1,0 +1,544 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KiddaC_Skin_E2sentials\n"
+"POT-Creation-Date: 2025-01-27 00:19+0200\n"
+"PO-Revision-Date: 2025-01-27 00:19+0200\n"
+"Last-Translator: biko\n"
+"Language-Team: biko\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Task.py:49
+msgid "Waiting"
+msgstr "إنتظر من فضلك"
+
+#: Task.py:50
+msgid "In progress"
+msgstr "جاري التنفيذ"
+
+#: Task.py:51
+msgid "Finished"
+msgstr "تم الإنتهاء"
+
+#: Task.py:52
+msgid "Failed"
+msgstr "فشل"
+
+#: Task.py:344
+msgid "An unknown error occurred!"
+msgstr "حدث خطأ غير معروف!"
+
+#: Task.py:364
+#, python-format
+msgid "A required tool (%s) was not found."
+msgstr "لم يتم العثور (%s) على الأداة المطلوبة."
+
+#: Task.py:383 Task.py:398
+msgid "Error code"
+msgstr "رمز خطأ"
+
+#: openatv.py:109 openatv.py:112 openatv.py:117 openatv.py:122 openvix53.py:125
+#: openvix53.py:130 openvix6.py:144 openvix6.py:149
+msgid "Trashcan"
+msgstr "سلة المهملات"
+
+#: openatv.py:111 openatv.py:115 openatv.py:120 openvix53.py:117
+#: openvix53.py:123 openvix53.py:128 openvix6.py:136 openvix6.py:142
+#: openvix6.py:147
+msgid "Deleted items"
+msgstr "العناصر المحذوفة"
+
+#: openatv.py:126 openvix53.py:134 openvix6.py:153
+msgid "Deleted Recordings"
+msgstr "التسجيلات المحذوفة"
+
+#: openatv.py:131 openatv.py:134 openatv.py:139 openatv.py:144 openvix53.py:147
+#: openvix53.py:154 openvix53.py:159 openvix6.py:166 openvix6.py:173
+#: openvix6.py:178
+msgid "Directory"
+msgstr "الدليل"
+
+#: openvix53.py:118 openvix6.py:137
+msgid "Trash can"
+msgstr "سلة المهملات"
+
+#: openvix53.py:274 openvix6.py:312
+#, python-format
+msgid "%d Min"
+msgid_plural "%d Mins"
+msgstr[0] "%d دقيقه"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: openvix6.py:108
+#, python-format
+msgid "%d Recording"
+msgid_plural "%d Recordings"
+msgstr[0] "التسجيل %d "
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: openvixmovieselection.py:23
+msgid "Movie List Setup"
+msgstr "ضبط قائمة الأفلام"
+
+#: openvixmovieselection.py:48
+msgid "Cancel"
+msgstr "ألغاء"
+
+#: openvixmovieselection.py:49
+msgid "OK"
+msgstr "موافق"
+
+#: openvixmovieselection.py:56
+msgid "Use movie planner layout mod"
+msgstr "استخدام تعديل تخطيط مخطط الأفلام"
+
+#: openvixmovieselection.py:56
+msgid ""
+"Use alternative movie planner layouts. Primarily for for KiddaC's skins, but "
+"compatible with some other skins."
+msgstr ""
+"استخدم تخطيطات مخطط أفلام بديلة. في المقام الأول لإسكينات كيداك ، ولكنه "
+"متوافق مع بعض الإسكينات الأخرى."
+
+#: openvixmovieselection.py:57
+msgid "Use trash can in movie list"
+msgstr "استخدام سلة المهملات في قائمة الأفلام"
+
+#: openvixmovieselection.py:57
+msgid ""
+"When enabled, deleted recordings are moved to the trash can, instead of "
+"being deleted immediately."
+msgstr ""
+"عند التفعيل ، سيتم نقل التسجيلات المحذوفة إلى سلة المهملات ، بدلا من أن يتم "
+"حذفها على الفور."
+
+#: openvixmovieselection.py:58
+msgid "Remove items from trash can after (days)"
+msgstr "إزالة العناصر من سلة المهملات بعد  { أيام"
+
+#: openvixmovieselection.py:58
+msgid ""
+"Configure the number of days after which items are automatically removed "
+"from the trash can.\n"
+"A setting of 0 disables this."
+msgstr ""
+"إعدادات ضبط عدد الأيام وبعد ذلك يتم إزالة العناصر تلقائيا من سلة المهملات. \n"
+"ضبط  0 لتعطيل هذا الخيار."
+
+#: openvixmovieselection.py:59
+msgid "Clean network trash cans"
+msgstr "تنظيف شبكة الانترنت من سلة المهملات"
+
+#: openvixmovieselection.py:59
+msgid "When enabled, network trash cans are probed for cleaning."
+msgstr "عند التفعيل، يتم البحث عن سلة محذوفات الشبكة لتنظيفها."
+
+#: openvixmovieselection.py:60
+msgid "Disk space to reserve for recordings (in GB)"
+msgstr "مساحة القرص الصلب للتسجيلات (بالجيجا بايت)"
+
+#: openvixmovieselection.py:60
+msgid ""
+"Configure the minimum amount of disk space to be available for recordings. "
+"When the amount of space drops below this value, deleted items will be "
+"removed from the trash can."
+msgstr ""
+"ضبط إعدادات الحد الأدنى من مساحة القرص لتكون متاحة للتسجيلات. عندما ينخفض ​​"
+"مقدار المساحة أقل من هذه القيمة، سيتم إزالة العناصر المحذوفة من سلة المهملات."
+
+#: openvixmovieselection.py:63
+msgid "Background delete option"
+msgstr "خيار حذف الخلفية"
+
+#: openvixmovieselection.py:63
+msgid "Configure on which devices the background delete option should be used."
+msgstr "ضبط استخدام خيار حذف الخلفية على اي أجهزة."
+
+#: openvixmovieselection.py:68
+msgid "Background delete speed"
+msgstr "سرعة حذف الخلفية"
+
+#: openvixmovieselection.py:68
+msgid ""
+"Configure the speed of the background deletion process. Lower speed will "
+"consume less hard disk drive performance."
+msgstr ""
+"تكوين إعدادات سرعة عملية الحذف في الخلفية. إنخفاض السرعة سوف يكون الاستهلاك "
+"أقل في أداء القرص الصلب."
+
+#: openvixmovieselection.py:72
+msgid "Font size"
+msgstr "حجم الخط"
+
+#: openvixmovieselection.py:72
+msgid ""
+"This allows you change the font size relative to skin size, so 1 increases "
+"by 1 point size, and -1 decreases by 1 point size"
+msgstr ""
+"يسمح لك هذا بتغيير حجم الخط في الإسكين زيادة بمقدار 1 حسب حجم الخط, و إنقاص "
+"-1 حسب حجم الخط"
+
+#: openvixmovieselection.py:73
+msgid "Number of rows"
+msgstr "عدد الصفوف"
+
+#: openvixmovieselection.py:73
+msgid "Number of rows to display"
+msgstr "عدد الصفوف المراد عرضها"
+
+#: openvixmovieselection.py:74
+msgid "Use slim screen"
+msgstr "استخدام شاشة رفيعه"
+
+#: openvixmovieselection.py:74
+msgid "Use the alternative screen"
+msgstr "استخدم الشاشة البديلة"
+
+#: openvixmovieselection.py:77
+msgid "Use adaptive date display"
+msgstr "استخدام تاريخ متأقلم على شاشة العرض"
+
+#: openvixmovieselection.py:77
+msgid ""
+"Adaptive date display allows recent dates to be displayed as 'Today' or "
+"'Yesterday'.  It hides the year for recordings made this year.  It hides the "
+"day of the week for recordings made in previous years."
+msgstr ""
+"يسمح عرض التاريخ على شاشة العرض التواريخ الحديثة علي انها 'اليوم' أو 'أمس'. "
+"انه يخفي السنه للتسجيلات التي تمت هذا العام.  هو يخفي اليوم من الأسبوع "
+"لتسجيلات يجعل في السنوات السابقة."
+
+#: openvixmovieselection.py:82
+msgid "Sort"
+msgstr "ترتيب"
+
+#: openvixmovieselection.py:82
+msgid "Set the default sorting method."
+msgstr "تعيين الشكل الإفتراضي في الفرز."
+
+#: openvixmovieselection.py:87
+msgid "Sort Trash by deletion time"
+msgstr "ترتيب المحذوفات حسب وقت الحذف"
+
+#: openvixmovieselection.py:87
+msgid ""
+"Use the deletion time to sort Trash directories.\n"
+"Most recently deleted at the top."
+msgstr ""
+"استخدام وقت الحذف لفرز مجلدات سلة المهملات.\n"
+"تم حذفها مؤخرا في الأعلى."
+
+#: openvixmovieselection.py:92
+msgid "Show extended description"
+msgstr "عرض الوصف المتقدم"
+
+#: openvixmovieselection.py:92
+msgid "Show or hide the extended description, (skin dependant)."
+msgstr "عرض أو إخفاء الوصف الكامل (يتبع الإسكين)"
+
+#: openvixmovieselection.py:97
+msgid "Use individual settings for each directory"
+msgstr "استخدام الإعدادات الفردية لكل دليل"
+
+#: openvixmovieselection.py:97
+msgid ""
+"When set, each directory will show the previous state used. When off, the "
+"default values will be shown."
+msgstr ""
+"عند التعيين ، سيعرض كل دليل الحالة السابقة المستخدمة. عند إيقاف التشغيل، "
+"سيتم عرض القيم الافتراضية."
+
+#: openvixmovieselection.py:103
+msgid "Permanent sort key changes"
+msgstr "تغييرات مفتاح الترتيب الدائم"
+
+#: openvixmovieselection.py:103
+msgid "When set, sort changes via the sort key will be permanent."
+msgstr "عند التحديد ، ستكون تغييرات الترتيب عبر مفتاح الفرز دائمة."
+
+#: openvixmovieselection.py:103
+msgid ""
+"When unset, sort changes will be temporary - just for this view of a "
+"directory."
+msgstr ""
+"عند إلغاء الضبط ، ستكون تغييرات الترتيب مؤقتة - فقط لطريقة العرض هذه للدليل."
+
+#: openvixmovieselection.py:108
+msgid "Stop service on return to movie list"
+msgstr "إيقاف خدمة الرجوع لقائمة الأفلام"
+
+#: openvixmovieselection.py:108
+msgid "Stop previous broadcasted service on return to movie list."
+msgstr "إيقاف خدمة البث السابقة بشأن العودة إلى قائمة الأفلام."
+
+#: openvixmovieselection.py:112
+msgid "Show status icons in movie list"
+msgstr "عرض الإيقونات في قائمة الأفلام"
+
+#: openvixmovieselection.py:112
+msgid "Shows the watched status of the movie."
+msgstr "عرض حالة الأفلام المشاهدة."
+
+#: openvixmovieselection.py:116
+msgid "Show icon for new/unseen items"
+msgstr "عرض الايقونات الجديدة أو إخفاءها"
+
+#: openvixmovieselection.py:116
+msgid "Shows the icons when new/unseen, otherwise it will not show an icon."
+msgstr "عرض الايقونات عندما تكون جديدة/غير مرئية، وإلا فإنه لن تعرض الايقونة."
+
+#: openvixmovieselection.py:120
+msgid "Service Title mode"
+msgstr "وضع عنوان الحدث"
+
+#: openvixmovieselection.py:120
+msgid "Show picons in the movie list."
+msgstr "عرض البيكونات في قائمة الأفلام."
+
+#: openvixmovieselection.py:123
+msgid "Picon Width"
+msgstr "عرض الايقونة"
+
+#: openvixmovieselection.py:123
+msgid "."
+msgstr "."
+
+#: openvixmovieselection.py:126
+msgid "Show movie lengths in movie list"
+msgstr "إظهار أطوال الأفلام في قائمة الأفلام"
+
+#: openvixmovieselection.py:126
+msgid ""
+"When enabled, the length of each recording will be shown in the movielist "
+"(this might cause some additional loading time)."
+msgstr ""
+"عند التمكين، سيتم عرض طول التسجيل في قائمة الأفلام (وهذا قد يسبب بعض الوقت "
+"تحميل إضافي)."
+
+#: openvixmovieselection.py:131
+msgid "Play audio in background"
+msgstr "تشغيل الصوت في الخلفية"
+
+#: openvixmovieselection.py:131
+msgid "Keeps the movie list open whilst playing audio files."
+msgstr "تحافظ على الفيلم في القائمة مفتوح أثناء تشغيل الملفات الصوتية."
+
+#: openvixmovieselection.py:136
+msgid "Root directory"
+msgstr "دليل الملفات"
+
+#: openvixmovieselection.py:136
+msgid ""
+"Sets the root directory of movie list, to remove the '..' from being shown "
+"in that folder."
+msgstr ""
+"لتحديد مسار الرووت لقائمة الأفلام، لإزالة \"..\" من العرض في هذا المجلد."
+
+#: openvixmovieselection.py:141
+msgid "Hide known extensions"
+msgstr "إخفاء الأمتدادات المعروفة"
+
+#: openvixmovieselection.py:141
+msgid "Allows you to hide the extensions of known file types."
+msgstr "يسمح لك بإخفاء ملحقات أنواع الملفات المعروفة."
+
+#: openvixmovieselection.py:146
+msgid "Show live tv when movie stopped"
+msgstr "عرض البث التلفزيوني المباشر عندما يتوقف الفيلم"
+
+#: openvixmovieselection.py:146
+msgid "When set the PIG will return to live after a movie has stopped playing."
+msgstr "عند الضبط سيعود تشغيل الفيلم من أخر توقف له عن التشغيل."
+
+#: openvixmovieselection.py:183 settings.py:86
+msgid "Really close without saving settings?"
+msgstr "هل تريد الخروج بدون حفظ الإعدادات ؟"
+
+#: plugin.py:79 plugin.py:108 plugin.py:109 plugin.py:113
+msgid "No"
+msgstr "لا"
+
+#: plugin.py:79 plugin.py:108 plugin.py:109
+msgid "Sky Planner"
+msgstr "مخطط سكاي"
+
+#: plugin.py:79 plugin.py:108 plugin.py:109
+msgid "Slyk Q Planner"
+msgstr "مخطط Slyk Q"
+
+#: plugin.py:79 plugin.py:108 plugin.py:109
+msgid "Slyk Onyx Planner"
+msgstr "مخطط إسكين Slyk Onyx"
+
+#: plugin.py:79 plugin.py:108 plugin.py:109
+msgid "VSkin Planner"
+msgstr "مخطط VSkin"
+
+#: plugin.py:83
+msgid "Sky UK"
+msgstr "سكاي الأنجليزيه"
+
+#: plugin.py:83
+msgid "OSN Arabic"
+msgstr "OSN العربية"
+
+#: plugin.py:88
+msgid "Press OK"
+msgstr "أضغط موافق"
+
+#: plugin.py:113
+msgid "ServiceName"
+msgstr "اسم الحدث"
+
+#: plugin.py:113
+msgid "ServicePicon"
+msgstr "ايقونه الحدث"
+
+#: plugin.py:474
+#, fuzzy
+#| msgid "Skin additions including Top Picks and Movie Planner Mods"
+msgid "Skin additions - Top Picks, Movie Planner Mods, Screen Names"
+msgstr "إضافات الإسكين بما في ذلك أفضل اللقطات وتعديل مخطط الأفلام"
+
+#: plugin.py:475
+msgid "KiddaC Skin E2sentials"
+msgstr "إسكين كيداك لأساسيات الاينجما2"
+
+#: settings.py:46
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: settings.py:53
+msgid "Back"
+msgstr "عودة الى الخلف"
+
+#: settings.py:54
+msgid "Save"
+msgstr "حفظ"
+
+#: settings.py:127
+msgid ""
+"No OSN categories selected. Please enter a some categories to show images "
+"for."
+msgstr "لم يتم تحديد فئات OSN. الرجاء إدخال بعض الفئات لعرض الصور لها."
+
+#: settings.py:136
+msgid ""
+"No Sky categories selected. Please enter a some categories to show images "
+"for."
+msgstr "لم يتم تحديد فئات سكاي. الرجاء إدخال بعض الفئات لعرض الصور لها."
+
+#: settings.py:152 settings.py:214
+msgid "Download Images"
+msgstr "تحميل الصور"
+
+#: settings.py:156 settings.py:219
+msgid "Refresh Images"
+msgstr "تحديث الصور"
+
+#: settings.py:168
+msgid "You need to restart the GUI"
+msgstr "الأينجما تحتاج إلى إعادة تشغيل"
+
+#: settings.py:168
+msgid "Do you want to restart now?"
+msgstr "هل تريد إعادة التشغيل الآن؟"
+
+#: settings.py:180
+msgid "Enable Screen Names Debug"
+msgstr "تفعيل إظهار  أسماء الشاشة"
+
+#: settings.py:181
+msgid "Enable Movie Planner Mod"
+msgstr "تفعيل تعديل مخطط الأفلام"
+
+#: settings.py:182
+msgid "Enable Top Picks Mod"
+msgstr "تفعيل وضع تحميل أفضل اللقطات"
+
+#: settings.py:183
+msgid "Top Picks image set"
+msgstr "إعدادات مجموعة الصور"
+
+#: settings.py:185
+msgid "Top Picks download images time"
+msgstr "تحديد وقت تحميل الصور"
+
+#: settings.py:186
+msgid "Top Picks refresh images every (X) mins..."
+msgstr "مده تحديث الصور كل (X) دقيقة ..."
+
+#: settings.py:187
+msgid "Top Picks show channel logo overlays"
+msgstr "إظهار شعار القناة على البوسترات"
+
+#: settings.py:188
+msgid "Top Picks show backdrop programme logo overlay"
+msgstr "إظهار خلفية شعار القناه على الباكدروب"
+
+#: settings.py:190
+msgid "Show Movie channels"
+msgstr "عرض قنوات الأفلام"
+
+#: settings.py:191
+msgid "Show General channels"
+msgstr "عرض القنوات العامة"
+
+#: settings.py:192
+msgid "Show Lifestyle channels"
+msgstr "عرض قنوات نمط الحياة"
+
+#: settings.py:193
+msgid "Show Arabic channels"
+msgstr "عرض القنوات العربية"
+
+#: settings.py:194 settings.py:201
+msgid "Show Kids channels"
+msgstr "عرض قنوات الأطفال"
+
+#: settings.py:195
+msgid "Show Sky Lifestyle"
+msgstr "عرض سكاي لايف ستايل"
+
+#: settings.py:196
+msgid "Show Sky Kids"
+msgstr "عرض سكاي للأطفال"
+
+#: settings.py:198
+msgid "Show Documentary channels"
+msgstr "عرض القنوات الوثائقية"
+
+#: settings.py:199
+msgid "Show Crime channels"
+msgstr "عرض قنوات الجريمة"
+
+#: settings.py:200
+msgid "Show Nature channels"
+msgstr "عرض قنوات الطبيعة"
+
+#: settings.py:202
+msgid "Show Cinema channels"
+msgstr "عرض قنوات السينما"
+
+#: settings.py:203
+msgid "Show Sports channels"
+msgstr "عرض القنوات الرياضية"
+
+#: settings.py:204
+msgid "Show Entertainment channels"
+msgstr "عرض القنوات الترفيهية"
