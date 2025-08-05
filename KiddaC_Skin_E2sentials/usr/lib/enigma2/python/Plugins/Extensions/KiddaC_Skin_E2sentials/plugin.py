@@ -231,12 +231,12 @@ autoStartTimerPicker = None
 class AutoStartTimerScraper:
     def __init__(self, session):
         self.session = session
-        self.timer = eTimer()
+        self.timer1 = eTimer()
 
         try:
-            self.timer_conn = self.timer.timeout.connect(self.onTimer)
+            self.timer1_conn = self.timer1.timeout.connect(self.onTimer)
         except:
-            self.timer.callback.append(self.onTimer)
+            self.timer1.callback.append(self.onTimer)
         self.update()
 
     def getWakeTime(self):
@@ -305,7 +305,7 @@ class AutoStartTimerScraper:
 
             config_path = "/etc/enigma2/e2sentials/toppicks_config.json"
             with open(config_path, 'w') as f:
-                json.dump(cfg_values, f)
+                json.dump(cfg_values, f, indent=4)
 
             job = Job("Top Picks Scraper Job")
             picker_task = Task(job, "Run Top Picks Scraper")
@@ -321,12 +321,12 @@ class AutoStartTimerScraper:
 class AutoStartTimerPicker:
     def __init__(self, session):
         self.session = session
-        self.timer = eTimer()
+        self.timer2 = eTimer()
 
         try:
-            self.timer_conn = self.timer.timeout.connect(self.onTimer)
+            self.timer2_conn = self.timer2.timeout.connect(self.onTimer)
         except:
-            self.timer.callback.append(self.onTimer)
+            self.timer2.callback.append(self.onTimer)
         self.update()
 
     def update(self):
@@ -377,7 +377,7 @@ class AutoStartTimerPicker:
 
             config_path = "/etc/enigma2/e2sentials/toppicks_config.json"
             with open(config_path, 'w') as f:
-                json.dump(cfg_values, f)
+                json.dump(cfg_values, f, indent=4)
 
             job = Job("Top Picks Scraper Job")
             picker_task = Task(job, "Run Top Picks Scraper")
@@ -417,7 +417,7 @@ class AutoStartTimerPicker:
 
             config_path = "/etc/enigma2/e2sentials/toppicks_config.json"
             with open(config_path, 'w') as f:
-                json.dump(cfg_values, f)
+                json.dump(cfg_values, f, indent=4)
 
             job = Job("Top Picks Picker Job")
             picker_task = Task(job, "Run Top Picks Picker")
