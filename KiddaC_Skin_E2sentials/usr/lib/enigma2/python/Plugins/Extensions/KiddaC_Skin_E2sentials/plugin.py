@@ -246,7 +246,7 @@ class AutoStartTimerScraper:
         return int(time.mktime((now.tm_year, now.tm_mon, now.tm_mday, clock[0], clock[1], 0, now.tm_wday, now.tm_yday, now.tm_isdst)))
 
     def update(self, atLeast=0):
-        self.timer.stop()
+        self.timer1.stop()
         wake = self.getWakeTime()
         nowtime = time.time()
         if wake > 0:
@@ -258,13 +258,13 @@ class AutoStartTimerScraper:
                 next = 3600
             if next <= 0:
                 next = 60
-            self.timer.startLongTimer(next)
+            self.timer1.startLongTimer(next)
         else:
             wake = -1
         return wake
 
     def onTimer(self):
-        self.timer.stop()
+        self.timer1.stop()
         now = int(time.time())
         wake = self.getWakeTime()
         atLeast = 0
@@ -330,13 +330,13 @@ class AutoStartTimerPicker:
         self.update()
 
     def update(self):
-        self.timer.stop()
+        self.timer2.stop()
         if cfg.enabletoppicksmod.value:
             interval = cfg.toppickspicker.value * 60  # Picker interval in seconds
-            self.timer.startLongTimer(interval)
+            self.timer2.startLongTimer(interval)
 
     def onTimer(self):
-        self.timer.stop()
+        self.timer2.stop()
         if os.path.exists("/etc/enigma2/e2sentials/all_channels_data.json"):
             if cfg.enabletoppicksmod.value:
                 # Run the picker task
