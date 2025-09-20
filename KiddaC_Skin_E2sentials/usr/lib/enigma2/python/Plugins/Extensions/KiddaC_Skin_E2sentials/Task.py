@@ -8,7 +8,7 @@ import sys
 from Tools.CList import CList
 from six.moves import map, range
 import Tools.Notifications
-from Screens.MessageBox import MessageBox
+# from Screens.MessageBox import MessageBox
 from Screens.TaskView import JobView
 from enigma import eConsoleAppContainer
 
@@ -304,7 +304,6 @@ class JobManager:
             Tools.Notifications.AddNotification(MessageBox, job.name + "\n" + _("Error") + ': %s' % (problems[0].getErrorMessage(task)), type=MessageBox.TYPE_ERROR)
             return False
             """
-
 
     def jobDone(self, job, task, problems):
         print("job", job, "completed with", problems, "in", task)

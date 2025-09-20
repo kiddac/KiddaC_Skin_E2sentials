@@ -305,7 +305,7 @@ class AutoStartTimerScraper:
 
             config_path = "/etc/enigma2/e2sentials/toppicks_config.json"
             with open(config_path, 'w') as f:
-                json.dump(cfg_values, f, indent=4)
+                json.dump(cfg_values, f)
 
             job = Job("Top Picks Scraper Job")
             picker_task = Task(job, "Run Top Picks Scraper")
@@ -377,7 +377,7 @@ class AutoStartTimerPicker:
 
             config_path = "/etc/enigma2/e2sentials/toppicks_config.json"
             with open(config_path, 'w') as f:
-                json.dump(cfg_values, f, indent=4)
+                json.dump(cfg_values, f)
 
             job = Job("Top Picks Scraper Job")
             picker_task = Task(job, "Run Top Picks Scraper")
@@ -417,7 +417,7 @@ class AutoStartTimerPicker:
 
             config_path = "/etc/enigma2/e2sentials/toppicks_config.json"
             with open(config_path, 'w') as f:
-                json.dump(cfg_values, f, indent=4)
+                json.dump(cfg_values, f)
 
             job = Job("Top Picks Picker Job")
             picker_task = Task(job, "Run Top Picks Picker")

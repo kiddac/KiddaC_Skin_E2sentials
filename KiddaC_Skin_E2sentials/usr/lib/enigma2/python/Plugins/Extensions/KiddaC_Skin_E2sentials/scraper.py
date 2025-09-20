@@ -286,7 +286,7 @@ def all_downloads_complete(results):
     global tilelist
     filename = '/etc/enigma2/e2sentials/all_channels_data.json'
     with open(filename, 'w') as f:
-        json.dump(tilelist, f, indent=4)
+        json.dump(tilelist, f)
 
     reactor.stop()
 

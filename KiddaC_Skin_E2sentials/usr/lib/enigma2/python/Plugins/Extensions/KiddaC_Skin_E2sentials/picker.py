@@ -322,8 +322,14 @@ def create_combined_image(im, title, start, duration, width, height, skin_size, 
     top_height = height // 2
     bottom_height = height // 2
 
+    # Get actual image dimensions (fallback for older Pillow versions)
+    try:
+        im_w, im_h = im.width, im.height
+    except AttributeError:
+        im_w, im_h = im.size
+
     # Resize the landscape image to fit the top half while maintaining aspect ratio
-    im_aspect_ratio = im.width / im.height
+    im_aspect_ratio = im_w / im_h
     target_aspect_ratio = width / top_height
 
     if im_aspect_ratio > target_aspect_ratio:
@@ -338,9 +344,9 @@ def create_combined_image(im, title, start, duration, width, height, skin_size, 
     resized_image = resize_image(im, (new_width, new_height))
 
     # Move the top image down by logo_height * 2
-    y_offset = logo_height + (8 if skin_size == 1080 else 4)
+    y_offset = (logo_height or 0) + (8 if skin_size == 1080 else 4)
 
-    # Paste the resized landscape image at the new y_offset (moved down by logo_height * 2)
+    # Paste the resized landscape image at the new y_offset (centered horizontally)
     x_offset = (width - new_width) // 2
     combined_image.paste(resized_image, (x_offset, y_offset))
 
@@ -360,7 +366,7 @@ def create_combined_image(im, title, start, duration, width, height, skin_size, 
 
     # Calculate vertical position for the wrapped text
     total_text_height = (len(lines_title) + len(lines_time_duration)) * get_text_size(font, "A")[1] + \
-                        (len(lines_title) + len(lines_time_duration) - 1) * 5  # Line spacing (no extra space after last line)
+                        (len(lines_title) + len(lines_time_duration) - 1) * 5  # Line spacing
     start_y = top_height + (bottom_height - total_text_height) // 2
 
     # Left-aligned text positioning
