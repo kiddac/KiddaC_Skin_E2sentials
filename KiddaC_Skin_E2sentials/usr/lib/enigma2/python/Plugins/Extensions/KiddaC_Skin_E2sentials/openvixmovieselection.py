@@ -59,22 +59,17 @@ class MovieBrowserConfiguration2(ConfigListScreen, Screen):
         self.list.append(getConfigListEntry(_("Clean network trash cans"), config.usage.movielist_trashcan_network_clean, _("When enabled, network trash cans are probed for cleaning.")))
         self.list.append(getConfigListEntry(_("Disk space to reserve for recordings (in GB)"), config.usage.movielist_trashcan_reserve, _("Configure the minimum amount of disk space to be available for recordings. When the amount of space drops below this value, deleted items will be removed from the trash can.")))
 
-        try:
-            self.list.append(getConfigListEntry(_("Background delete option"), config.misc.erase_flags, _("Configure on which devices the background delete option should be used.")))
-        except:
-            pass
-
-        try:
-            self.list.append(getConfigListEntry(_("Background delete speed"), config.misc.erase_speed, _("Configure the speed of the background deletion process. Lower speed will consume less hard disk drive performance.")))
-        except:
-            pass
-
         self.list.append(getConfigListEntry(_("Font size"), config.movielist.fontsize, _("This allows you change the font size relative to skin size, so 1 increases by 1 point size, and -1 decreases by 1 point size")))
         self.list.append(getConfigListEntry(_("Number of rows"), config.movielist.itemsperpage, _("Number of rows to display")))
         self.list.append(getConfigListEntry(_("Use slim screen"), config.movielist.useslim, _("Use the alternative screen")))
 
         try:
             self.list.append(getConfigListEntry(_("Use adaptive date display"), config.movielist.use_fuzzy_dates, _("Adaptive date display allows recent dates to be displayed as 'Today' or 'Yesterday'.  It hides the year for recordings made this year.  It hides the day of the week for recordings made in previous years.")))
+        except:
+            pass
+
+        try:
+            self.list.append(getConfigListEntry(_("Enable automatic collections"), config.movielist.enable_collections, _("When enabled, recordings are grouped by name into collections automatically.")))
         except:
             pass
 
