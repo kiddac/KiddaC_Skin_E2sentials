@@ -20,6 +20,27 @@ skin_configs = {
         "programme_logo_x_offset": 540,  # offset from the left
         "programme_logo_y_offset": 54  # offset from the top
     },
+    
+    "slyk-q-deluxe": {
+        "background": True,  # show background hero graphic
+        "backgroundsize": [1280, 720],  # backdrop overlay size
+        "image_folder": "q-toppicks/",  # skin default image set. background.jpg, hero.jpg, toppicks1.jpg x by number of images
+        "image_prefix": "toppicks",  # name of image tiles in skin
+        "landscape_pics": [],  # which images are landscape i.e. [1, 2, 3]
+        "landscape_size": [],  # size of landscape pics i.e. [407, 241]
+        "channel_logo_height": 21,  # channel logo height
+        "channel_logo_halign": "center",  # channel logo horizontal position. left/center/right
+        "channel_logo_valign": "top",  # channel logo vertical position. top/bottom
+        "number_of_images": 10,  # total number of images portrait and landscape
+        "picons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],  # which images you want channel picons to appear on.
+        "portrait_pics": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],  # which images are portrait
+        "portrait_size": [240, 320],  # size of portrait cover pics
+        "skin_folder": "/usr/share/enigma2/slyk-q-deluxe/",
+        "skin_size": 1080,  # skin default height. i.e 1920 x 1080.
+        "programme_logo_width": 300,  # programme / movies / series logo - only for osn images
+        "programme_logo_x_offset": 540,  # offset from the left
+        "programme_logo_y_offset": 54  # offset from the top
+    },
 
     "slyk-onyx-1080": {
         "background": False,
