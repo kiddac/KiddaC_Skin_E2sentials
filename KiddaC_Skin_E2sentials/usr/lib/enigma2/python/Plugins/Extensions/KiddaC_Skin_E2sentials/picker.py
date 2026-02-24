@@ -57,14 +57,13 @@ osn_hdr = {
     "cache-control": "no-cache",
     "referer": "https://www.osn.com/en-sa/watch/tv-schedule",
     "sec-fetch-site": "same-origin",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
     "x-requested-with": "XMLHttpRequest",
     "Host": "images.tv.osn.com"
 }
 
 sky_hdr = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
-    'Accept-Encoding': 'gzip, deflate'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36',
 }
 
 config_path = "/etc/enigma2/e2sentials/toppicks_config.json"

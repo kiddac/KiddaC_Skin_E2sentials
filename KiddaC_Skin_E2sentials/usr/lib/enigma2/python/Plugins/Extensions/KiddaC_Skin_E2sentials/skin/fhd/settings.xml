@@ -36,5 +36,5 @@
 	<widget source="key_blue" render="Label" position="1485,1020" size="375,60" font="e2sentialsregular;24" foregroundColor="#ffffff" backgroundColor="#0a3162" valign="center" transparent="1" noWrap="1" zPosition="2"/>
 	
 	<widget name="VKeyIcon" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/KiddaC_Skin_E2sentials/skin/fhd/common/key_text.png" position="1425,1031" size="38,38" alphatest="blend" transparent="1" zPosition="2"/>
-	<widget name="HelpWindow" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/KiddaC_Skin_E2sentials/skin/fhd/common/vkey_icon.png" position="0,0" zPosition="1" size="1920,1080" transparent="1" alphatest="on"/>
+	<widget name="HelpWindow" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/KiddaC_Skin_E2sentials/skin/fhd/common/vkey_icon.png" position="0,0" zPosition="1" size="1920,1080" transparent="1" alphatest="blend"/>
 </screen>
