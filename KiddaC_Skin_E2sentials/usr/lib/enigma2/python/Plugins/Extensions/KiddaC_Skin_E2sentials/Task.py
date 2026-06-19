@@ -296,15 +296,6 @@ class JobManager:
         else:
             return False
 
-        """
-        if problems[0].RECOVERABLE:
-            Tools.Notifications.AddNotificationWithCallback(self.errorCB, MessageBox, _("Error: %s\nRetry?") % (problems[0].getErrorMessage(task)))
-            return True
-        else:
-            Tools.Notifications.AddNotification(MessageBox, job.name + "\n" + _("Error") + ': %s' % (problems[0].getErrorMessage(task)), type=MessageBox.TYPE_ERROR)
-            return False
-            """
-
     def jobDone(self, job, task, problems):
         print("job", job, "completed with", problems, "in", task)
         if problems:

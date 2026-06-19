@@ -441,7 +441,6 @@ def autostart(reason, session=None, **kwargs):
     global autoStartTimerScraper, autoStartTimerPicker
 
     def startTimers():
-        """Callback function to initialize the timers after delay."""
         global autoStartTimerScraper, autoStartTimerPicker
         if reason == 0:
             if session is not None:
